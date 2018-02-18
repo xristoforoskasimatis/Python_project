@@ -1,5 +1,5 @@
 import random
-bingos = 0
+com_games = 0
 
 def bingonumbers(tixaiosari,x):
 	ari8mos = True
@@ -27,6 +27,6 @@ def player(x):
 for c in range(1000):
 	x=range(1,81)
 	paixtes = player(x)
-	bingos += bingonumbers(paixtes,x)
-mo=bingos/1000
+	com_games += bingonumbers(paixtes,x)
+mo=com_games/1000
 print mo
