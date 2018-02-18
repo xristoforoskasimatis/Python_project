@@ -1,6 +1,5 @@
 import random
 com_games = 0
-
 def bingonumbers(tixaiosari,x):
 	ari8mos = True
 	game = 0
@@ -15,15 +14,11 @@ def bingonumbers(tixaiosari,x):
 				if z[c] == 5:
 					ari8mos=False
 	return game
-
-
 def player(x):
 		ari8moi = []
 		for c in range(100):
 			ari8moi.append(random.sample(x,5))
 		return ari8moi
-
-
 for c in range(1000):
 	x=range(1,81)
 	paixtes = player(x)
