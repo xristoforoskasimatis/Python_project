@@ -3,8 +3,6 @@ ari8moi=[]
 for k in range(30):
     number=random.randint(-30,30)
     ari8moi.append(number)
-
-
 a = 0
 for x in range(30):
     for y in range(x+1,30):
